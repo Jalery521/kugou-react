@@ -1,0 +1,25 @@
+.navList {
+  height: 0.58rem;
+  padding: 0 0.12rem;
+  display: flex;
+  position: fixed;
+  top: 0.6rem;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: #fff;
+  border-bottom: 2px solid #e5e5e5;
+  .navItem {
+    flex: 1;
+    padding-bottom: 0.04rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+    color: #000;
+    &.active {
+      border-bottom: 0.04rem solid #2ca2f9;
+      padding-bottom: 0;
+    }
+  }
+}

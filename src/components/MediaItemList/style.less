@@ -1,0 +1,42 @@
+.mediaItemList {
+  > .mediaItem {
+    height: 1.24rem;
+    padding-left: 0.12rem;
+    display: flex;
+    align-items: center;
+    &:nth-of-type(n + 1) {
+      border-bottom: 1px solid #e5e5e5;
+    }
+    > .mediaItem-left {
+      width: 1rem;
+      > img {
+        width: 0.96rem;
+        height: 0.96rem;
+      }
+    }
+    > .mediaItem-middle {
+      padding-left: 0.1rem;
+      flex: 1;
+      font-size: 0.18rem;
+      > .mediaItem-middle-sub {
+        margin-top: 0.02rem;
+        font-size: 0.13rem;
+        color: #9b9b9b;
+        display: flex;
+        align-items: center;
+        > img {
+          height: 0.13rem;
+          widows: 0.13rem;
+          margin-right: 0.06rem;
+        }
+      }
+    }
+    > .mediaItem-right {
+      width: 0.38rem;
+      text-align: center;
+      > img {
+        width: 0.12rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.songItemList {
+  width: 100%;
+  padding-left: 0.2rem;
+  > .songItem {
+    height: 0.72rem;
+    display: flex;
+    align-items: center;
+    > .songItem-left {
+      width: 0.5rem;
+    }
+    > .songItem-middle {
+      flex: 1;
+      padding-left: 0.08rem;
+      font-size: 0.2rem;
+    }
+    > .songItem-right {
+      width: 0.44rem;
+      text-align: center;
+      > img {
+        width: 0.18rem;
+        height: 0.18rem;
+      }
+    }
+    &:nth-of-type(n + 1) {
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+}

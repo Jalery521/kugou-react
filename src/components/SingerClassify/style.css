@@ -1,0 +1,27 @@
+.singerClassify {
+  margin: 0.14rem 0.12rem 0;
+  background-color: #fbfbfb;
+  border: 1px solid #e4e4e4;
+  border-radius: 0.06rem;
+}
+.singerClassify > .singerClassify-item {
+  height: 0.5rem;
+  display: flex;
+}
+.singerClassify > .singerClassify-item:nth-of-type(n + 2) {
+  border-top: 1px solid #e4e4e4;
+}
+.singerClassify > .singerClassify-item > .singerClassify-item-left {
+  flex: 1;
+  padding-left: 0.1rem;
+  line-height: 0.5rem;
+}
+.singerClassify > .singerClassify-item > .singerClassify-item-right {
+  width: 0.32rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singerClassify > .singerClassify-item > .singerClassify-item-right > img {
+  width: 0.1rem;
+}

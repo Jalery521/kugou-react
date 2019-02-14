@@ -1,0 +1,48 @@
+.musicPlayer {
+  height: 0.76rem;
+  position: fixed;
+  background-color: #000;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.musicPlayer > .musicPlayer-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 0.04rem;
+}
+.musicPlayer > .musicPlayer-left > .musicPlayer-left-cover {
+  width: 0.66rem;
+  height: 0.66rem;
+  border-radius: 0.06rem;
+  overflow: hidden;
+}
+.musicPlayer > .musicPlayer-left > .musicPlayer-left-cover > img {
+  width: 100%;
+  height: 100%;
+}
+.musicPlayer > .musicPlayer-left > .musicPlayer-left-content {
+  padding-left: 0.1rem;
+}
+.musicPlayer > .musicPlayer-left > .musicPlayer-left-content > .musicPlayer-left-songName {
+  font-size: 0.14rem;
+  color: #fff;
+}
+.musicPlayer > .musicPlayer-left > .musicPlayer-left-content > .musicPlayer-left-singerName {
+  font-size: 0.13rem;
+  color: #888;
+  margin-top: 0.05rem;
+}
+.musicPlayer > .musicPlayer-right {
+  width: 1.6rem;
+  display: flex;
+  padding: 0.2rem;
+  justify-content: space-between;
+}
+.musicPlayer > .musicPlayer-right > img {
+  width: 0.32rem;
+  height: 0.32rem;
+}
